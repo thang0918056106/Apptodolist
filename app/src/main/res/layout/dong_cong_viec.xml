@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AFA6A6"
+    android:layout_weight="4">
+
+    <TextView
+        android:textColor="#f20"
+        android:layout_weight="2"
+        android:id="@+id/txtTenCongViec"
+        android:textSize="30sp"
+        android:text="Tên Công Việc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:layout_weight="1"
+        android:id="@+id/imgDelete"
+        android:src="@drawable/delete"
+        android:layout_width="30dp"
+        android:layout_height="30dp"/>
+
+    <ImageView
+        android:layout_weight="1"
+        android:id="@+id/imgEdit"
+        android:src="@drawable/edit"
+        android:layout_width="30dp"
+        android:layout_height="30dp"/>
+
+</LinearLayout>
